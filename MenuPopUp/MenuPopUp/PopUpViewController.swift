@@ -11,11 +11,14 @@ import UIKit
 class PopUpViewController: UIViewController {
 
     @IBOutlet weak var pop_up: UIButton!
+    @IBOutlet weak var viewPopUp: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.viewPopUp.layer.cornerRadius = 5
     }
     
 
